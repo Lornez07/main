@@ -46,7 +46,7 @@ p{
   /* Section 1 */
    .column1{
        background-image: linear-gradient(#fefcfe,#ffffff);
-       padding : 15px 30px;
+       padding : 30px 50px;
    }
 
   .section-1{
@@ -78,6 +78,7 @@ span.wave {
 }
 .boyimage{
   height: 350px;
+  border-radius: 25%;
 }
 
 @media only screen and (max-width : 1183px){
