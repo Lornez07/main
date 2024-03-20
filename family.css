@@ -1,0 +1,77 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+  
+   @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: #351458;
+  }
+  @media only screen and (max-width : 764px){
+      .brand-name ,.navbar-light .navbar-brand{
+      font-family: "Lovely Home";
+      font-size: 40px;
+      font-weight: bold;
+      color: #351458;
+  }
+}
+  
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+  
+  .headerachor:hover {
+    background-color: #f1f1f1;
+  }
+ 
+/* Existing CSS remains unchanged */
+
+.family-and-friends-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.family-and-friends-section h2 {
+    font-size: 32px;
+    color: #351458;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-family {
+    margin: 10px;
+    width: 250px;
+}
+
+.gallery-family img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 2;
+    color: #868e96;
+}
